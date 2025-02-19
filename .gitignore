@@ -1,0 +1,17 @@
+terraform/arm.tfvars
+terraform/*.tfplan
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform
+terraform/.terraform/*
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.log
+terraform/terraform.tfvars
+terraform/terraform.tfvars.json
+terraform/terraform.tfvars.json.example
+terraform/terraform.tfvars.example
+terraform/terraform.tfvars.example.json
+terraform/terraform.tfvars.json.example
+terraform/terraform.tfvars.example.json
+terraform/terraform.auto.tfvars
