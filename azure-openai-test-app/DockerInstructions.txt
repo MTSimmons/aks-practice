@@ -1,0 +1,12 @@
+Build and push the Docker image (replace <your-registry> and <tag> as needed):
+
+docker build -t <your-registry>/azure-openai-test-app:<tag> .
+docker push <your-registry>/azure-openai-test-app:<tag>
+
+
+Deploy to AKS (example with kubectl):
+kubectl create deployment azure-openai-test-app --image=<your-registry>/azure-openai-test-app:<tag>
+kubectl expose deployment azure-openai-test-app --type=LoadBalancer --port 80 --target-port=3000
+
+
+Adjust ports and environment variables as needed. Once complete, your containerized chat app will be running on your AKS cluster.

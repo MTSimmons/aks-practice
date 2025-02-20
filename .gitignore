@@ -15,3 +15,6 @@ terraform/terraform.tfvars.example.json
 terraform/terraform.tfvars.json.example
 terraform/terraform.tfvars.example.json
 terraform/terraform.auto.tfvars
+azure-openai-test-app/dist/
+azure-openai-test-app/node_modules/
+azure-openai-test-app/.env
